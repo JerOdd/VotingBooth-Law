@@ -1,4 +1,4 @@
-package com.votingbooth.law_api;
+package com.votingbooth.lawapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

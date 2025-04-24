@@ -11,6 +11,7 @@
 	<groupId>com.votingbooth</groupId>
 	<artifactId>law-module</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>law-module</name>
 	<description>Law Module for VotingBooth</description>
 	<modules>
