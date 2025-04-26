@@ -1,7 +1,7 @@
 package com.votingbooth.lawapi.service;
 
 import com.votingbooth.lawapi.repository.LawRepository;
-import com.votingbooth.lawapi.model.Law;
+import com.votingbooth.lawcommon.model.Law;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

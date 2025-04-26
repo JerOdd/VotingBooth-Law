@@ -1,6 +1,6 @@
 package com.votingbooth.lawapi.api.model;
 
-import com.votingbooth.lawapi.model.Law;
+import com.votingbooth.lawcommon.model.Law;
 
 import java.util.List;
 

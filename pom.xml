@@ -15,6 +15,7 @@
 	<name>law-module</name>
 	<description>Law Module for VotingBooth</description>
 	<modules>
+		<module>law-common</module>
 		<module>law-api</module>
 		<module>law-listener</module>
 		<module>law-scheduler</module>
@@ -33,15 +34,10 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-mongodb</artifactId>
+		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>

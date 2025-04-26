@@ -7,31 +7,13 @@
         <artifactId>law-module</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>law-api</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+    <artifactId>law-common</artifactId>
+    <packaging>jar</packaging>
 
+    <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>com.votingbooth</groupId>
-            <artifactId>law-common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>

@@ -1,6 +1,17 @@
 version: '3.8'
 
 services:
+  mongo:
+    image: mongo:8.0
+    container_name: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: demo
+    volumes:
+      - mongo-data:/data/db
+
   zookeeper:
     image: confluentinc/cp-zookeeper:7.4.1
     environment:
@@ -18,3 +29,6 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+volumes:
+  mongo-data:

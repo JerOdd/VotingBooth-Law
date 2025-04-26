@@ -1,0 +1,5 @@
+/Users/jeremyo/Documents/Personal/VotingBooth/Backend/law-module/law-api/src/main/java/com/votingbooth/lawapi/LawApiApplication.java
+/Users/jeremyo/Documents/Personal/VotingBooth/Backend/law-module/law-api/src/main/java/com/votingbooth/lawapi/api/controller/LawController.java
+/Users/jeremyo/Documents/Personal/VotingBooth/Backend/law-module/law-api/src/main/java/com/votingbooth/lawapi/api/model/LawsResponse.java
+/Users/jeremyo/Documents/Personal/VotingBooth/Backend/law-module/law-api/src/main/java/com/votingbooth/lawapi/repository/LawRepository.java
+/Users/jeremyo/Documents/Personal/VotingBooth/Backend/law-module/law-api/src/main/java/com/votingbooth/lawapi/service/LawService.java

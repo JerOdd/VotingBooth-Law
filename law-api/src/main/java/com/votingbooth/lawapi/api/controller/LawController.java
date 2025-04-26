@@ -1,7 +1,7 @@
 package com.votingbooth.lawapi.api.controller;
 
 import com.votingbooth.lawapi.api.model.LawsResponse;
-import com.votingbooth.lawapi.model.Law;
+import com.votingbooth.lawcommon.model.Law;
 import com.votingbooth.lawapi.service.LawService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
