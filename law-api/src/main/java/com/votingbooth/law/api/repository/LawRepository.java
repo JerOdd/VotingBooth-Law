@@ -1,7 +1,10 @@
 package com.votingbooth.law.api.repository;
 
-import com.votingbooth.law.model.Law;
-import org.springframework.data.mongodb.repository.MongoRepository;
+import com.votingbooth.law.api.repository.entity.LawEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import java.util.UUID;
+
 @Repository
-public interface LawRepository extends MongoRepository<Law, String> {}
+public interface LawRepository extends JpaRepository<LawEntity, UUID> {}
