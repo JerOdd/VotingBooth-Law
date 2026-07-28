@@ -9,16 +9,16 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.votingbooth</groupId>
-	<artifactId>law-module</artifactId>
+	<artifactId>law</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>law-module</name>
+	<name>law</name>
 	<description>Law Module for VotingBooth</description>
 	<modules>
-		<module>law-common</module>
+		<module>law-core</module>
 		<module>law-api</module>
 		<module>law-listener</module>
-		<module>law-scheduler</module>
+		<module>law-job</module>
 	</modules>
 	<properties>
 		<java.version>17</java.version>
