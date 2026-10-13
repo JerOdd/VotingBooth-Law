@@ -17,7 +17,6 @@
 	<modules>
 		<module>law-core</module>
 		<module>law-api</module>
-		<module>law-listener</module>
 		<module>law-job</module>
 	</modules>
 	<properties>

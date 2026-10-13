@@ -9,7 +9,6 @@
         <module name="law-job" />
         <module name="law-core" />
         <module name="law-api" />
-        <module name="law-listener" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,7 +16,6 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="law-api" options="-parameters" />
       <module name="law-core" options="-parameters" />
-      <module name="law-listener" options="-parameters" />
       <module name="law" options="" />
       <module name="law-job" options="-parameters" />
     </option>
