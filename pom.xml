@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.votingbooth</groupId>
-	<artifactId>law</artifactId>
+	<artifactId>law-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>law</name>
-	<description>Law Module for VotingBooth</description>
+	<name>law-service</name>
+	<description>Law Service for VotingBooth</description>
 	<modules>
 		<module>core</module>
 		<module>api</module>
